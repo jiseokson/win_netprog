@@ -14,6 +14,7 @@ void ErrorHandling(const char* message)
 	exit(1);
 }
 
+// iter echo client
 int main(int ac, char** av)
 {
 	WSADATA wsaData;
